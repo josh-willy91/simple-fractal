@@ -1,5 +1,5 @@
 import scores from '../data/score-records.json';
-
+import './styles/App.css';
 
 function SearchInput({inputVal, setError, setEmployeeId, setCommScore, setCodingScore, setTitle, setCompanyId, setInputVal}) {
 
@@ -24,7 +24,7 @@ function SearchInput({inputVal, setError, setEmployeeId, setCommScore, setCoding
     };
 
     return (
-        <div>
+        <div className='wrapper'>
             <h1>Simple Fractal</h1>
             <h3>Benchmark Portal</h3>
             <p>Enter your employee ID to see where you stand amongst other candidates</p>

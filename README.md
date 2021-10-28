@@ -4,8 +4,10 @@
 ## Date 10/27/2021
 
 ## To run app
-- run npm start
-- If file is zipped, unzip then cd into simple-fractal directory and run npm start
+- If file is zipped, unzip then cd into simple-fractal directory
+- Otherwise just cd into simple-fractal directory
+- install depedencies with 'npm install'
+- run app with 'npm start'
 - Navigate to localhost:3000 to see in browser
 - See requirements.md for assessment rules and guildlines
 

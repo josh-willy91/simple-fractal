@@ -6,9 +6,9 @@ function TableData({error, employeeId, commScore, codingScore, title, companyId,
 
 
     return (
-        <div>
+        <div className='wrapper'>
             {!error ?
-                <table>
+                <table className='table'>
                     <thead>
                         <tr>
                             <th>Employee ID</th>
