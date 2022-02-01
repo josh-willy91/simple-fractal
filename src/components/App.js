@@ -5,6 +5,7 @@ import scores from '../data/score-records.json';
 import TableData from './TableData';
 import SearchInput from './SearchInput';
 
+
 function App() {
 
   const [error, setError] = useState(false);
